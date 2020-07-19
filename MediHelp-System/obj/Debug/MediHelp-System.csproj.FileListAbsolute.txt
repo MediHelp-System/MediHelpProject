@@ -29,3 +29,14 @@ E:\NSBM\medi help proj\Project\MediHelp-master\MediHelp-System\obj\Debug\MediHel
 E:\NSBM\medi help proj\Project\MediHelp-master\MediHelp-System\obj\Debug\MediHelp-System.exe
 E:\NSBM\medi help proj\Project\MediHelp-master\MediHelp-System\obj\Debug\MediHelp-System.pdb
 E:\NSBM\medi help proj\Project\MediHelp-master\MediHelp-System\obj\Debug\MediHelp_System.pha_reg.resources
+F:\C# Programming\MediHelp-System\MediHelpProject\MediHelp-System\obj\Debug\MediHelp-System.csprojAssemblyReference.cache
+F:\C# Programming\MediHelp-System\MediHelpProject\MediHelp-System\obj\Debug\MediHelp_System.Login.resources
+F:\C# Programming\MediHelp-System\MediHelpProject\MediHelp-System\obj\Debug\MediHelp_System.pha_reg.resources
+F:\C# Programming\MediHelp-System\MediHelpProject\MediHelp-System\obj\Debug\MediHelp_System.Properties.Resources.resources
+F:\C# Programming\MediHelp-System\MediHelpProject\MediHelp-System\obj\Debug\MediHelp-System.csproj.GenerateResource.cache
+F:\C# Programming\MediHelp-System\MediHelpProject\MediHelp-System\obj\Debug\MediHelp-System.csproj.CoreCompileInputs.cache
+F:\C# Programming\MediHelp-System\MediHelpProject\MediHelp-System\obj\Debug\MediHelp-System.exe
+F:\C# Programming\MediHelp-System\MediHelpProject\MediHelp-System\obj\Debug\MediHelp-System.pdb
+F:\C# Programming\MediHelp-System\MediHelpProject\MediHelp-System\bin\Debug\MediHelp-System.exe.config
+F:\C# Programming\MediHelp-System\MediHelpProject\MediHelp-System\bin\Debug\MediHelp-System.exe
+F:\C# Programming\MediHelp-System\MediHelpProject\MediHelp-System\bin\Debug\MediHelp-System.pdb

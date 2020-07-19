@@ -49,19 +49,11 @@
             this.ph_reg_lable.AutoSize = true;
             this.ph_reg_lable.BackColor = System.Drawing.Color.Transparent;
             this.ph_reg_lable.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-<<<<<<< HEAD
             this.ph_reg_lable.ForeColor = System.Drawing.SystemColors.ActiveCaption;
             this.ph_reg_lable.Location = new System.Drawing.Point(183, 177);
             this.ph_reg_lable.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.ph_reg_lable.Name = "ph_reg_lable";
             this.ph_reg_lable.Size = new System.Drawing.Size(311, 33);
-=======
-            this.ph_reg_lable.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
-            this.ph_reg_lable.Location = new System.Drawing.Point(183, 177);
-            this.ph_reg_lable.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.ph_reg_lable.Name = "ph_reg_lable";
-            this.ph_reg_lable.Size = new System.Drawing.Size(241, 25);
->>>>>>> 63b5f92bacd5f86aac1e412d8f4a4bbb365d4fc1
             this.ph_reg_lable.TabIndex = 0;
             this.ph_reg_lable.Text = "Pharmacy Regitration";
             this.ph_reg_lable.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -73,15 +65,9 @@
             this.Name_lable.BackColor = System.Drawing.Color.Transparent;
             this.Name_lable.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Name_lable.ForeColor = System.Drawing.Color.Black;
-<<<<<<< HEAD
-            this.Name_lable.Location = new System.Drawing.Point(121, 256);
-            this.Name_lable.Name = "Name_lable";
-            this.Name_lable.Size = new System.Drawing.Size(59, 23);
-=======
             this.Name_lable.Location = new System.Drawing.Point(121, 253);
             this.Name_lable.Name = "Name_lable";
-            this.Name_lable.Size = new System.Drawing.Size(47, 18);
->>>>>>> 63b5f92bacd5f86aac1e412d8f4a4bbb365d4fc1
+            this.Name_lable.Size = new System.Drawing.Size(59, 23);
             this.Name_lable.TabIndex = 1;
             this.Name_lable.Text = "Name";
             // 
@@ -89,11 +75,7 @@
             // 
             this.name_textBox.Location = new System.Drawing.Point(188, 253);
             this.name_textBox.Name = "name_textBox";
-<<<<<<< HEAD
             this.name_textBox.Size = new System.Drawing.Size(314, 30);
-=======
-            this.name_textBox.Size = new System.Drawing.Size(314, 26);
->>>>>>> 63b5f92bacd5f86aac1e412d8f4a4bbb365d4fc1
             this.name_textBox.TabIndex = 2;
             // 
             // address_label
@@ -102,15 +84,9 @@
             this.address_label.BackColor = System.Drawing.Color.Transparent;
             this.address_label.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.address_label.ForeColor = System.Drawing.Color.Black;
-<<<<<<< HEAD
-            this.address_label.Location = new System.Drawing.Point(104, 299);
-            this.address_label.Name = "address_label";
-            this.address_label.Size = new System.Drawing.Size(76, 23);
-=======
             this.address_label.Location = new System.Drawing.Point(108, 299);
             this.address_label.Name = "address_label";
-            this.address_label.Size = new System.Drawing.Size(60, 18);
->>>>>>> 63b5f92bacd5f86aac1e412d8f4a4bbb365d4fc1
+            this.address_label.Size = new System.Drawing.Size(76, 23);
             this.address_label.TabIndex = 1;
             this.address_label.Text = "Address";
             // 
@@ -121,10 +97,6 @@
             this.address_textBox.Name = "address_textBox";
             this.address_textBox.Size = new System.Drawing.Size(314, 49);
             this.address_textBox.TabIndex = 2;
-<<<<<<< HEAD
-            this.address_textBox.Text = "\r\n";
-=======
->>>>>>> 63b5f92bacd5f86aac1e412d8f4a4bbb365d4fc1
             // 
             // Contact_lable
             // 
@@ -132,15 +104,9 @@
             this.Contact_lable.BackColor = System.Drawing.Color.Transparent;
             this.Contact_lable.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Contact_lable.ForeColor = System.Drawing.Color.Black;
-<<<<<<< HEAD
-            this.Contact_lable.Location = new System.Drawing.Point(72, 365);
-            this.Contact_lable.Name = "Contact_lable";
-            this.Contact_lable.Size = new System.Drawing.Size(108, 23);
-=======
             this.Contact_lable.Location = new System.Drawing.Point(82, 365);
             this.Contact_lable.Name = "Contact_lable";
-            this.Contact_lable.Size = new System.Drawing.Size(86, 18);
->>>>>>> 63b5f92bacd5f86aac1e412d8f4a4bbb365d4fc1
+            this.Contact_lable.Size = new System.Drawing.Size(108, 23);
             this.Contact_lable.TabIndex = 1;
             this.Contact_lable.Text = "Contact No.";
             this.Contact_lable.Click += new System.EventHandler(this.label2_Click);
@@ -149,11 +115,7 @@
             // 
             this.contact_textBox.Location = new System.Drawing.Point(188, 365);
             this.contact_textBox.Name = "contact_textBox";
-<<<<<<< HEAD
             this.contact_textBox.Size = new System.Drawing.Size(314, 30);
-=======
-            this.contact_textBox.Size = new System.Drawing.Size(314, 26);
->>>>>>> 63b5f92bacd5f86aac1e412d8f4a4bbb365d4fc1
             this.contact_textBox.TabIndex = 2;
             // 
             // PhamaID_lable
@@ -162,15 +124,9 @@
             this.PhamaID_lable.BackColor = System.Drawing.Color.Transparent;
             this.PhamaID_lable.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.PhamaID_lable.ForeColor = System.Drawing.Color.Black;
-<<<<<<< HEAD
-            this.PhamaID_lable.Location = new System.Drawing.Point(62, 410);
-            this.PhamaID_lable.Name = "PhamaID_lable";
-            this.PhamaID_lable.Size = new System.Drawing.Size(118, 23);
-=======
             this.PhamaID_lable.Location = new System.Drawing.Point(74, 410);
             this.PhamaID_lable.Name = "PhamaID_lable";
-            this.PhamaID_lable.Size = new System.Drawing.Size(94, 18);
->>>>>>> 63b5f92bacd5f86aac1e412d8f4a4bbb365d4fc1
+            this.PhamaID_lable.Size = new System.Drawing.Size(118, 23);
             this.PhamaID_lable.TabIndex = 1;
             this.PhamaID_lable.Text = "Pharmacy ID";
             // 
@@ -178,11 +134,7 @@
             // 
             this.PhamaID_textBox.Location = new System.Drawing.Point(188, 410);
             this.PhamaID_textBox.Name = "PhamaID_textBox";
-<<<<<<< HEAD
             this.PhamaID_textBox.Size = new System.Drawing.Size(314, 30);
-=======
-            this.PhamaID_textBox.Size = new System.Drawing.Size(314, 26);
->>>>>>> 63b5f92bacd5f86aac1e412d8f4a4bbb365d4fc1
             this.PhamaID_textBox.TabIndex = 2;
             // 
             // label4
@@ -191,15 +143,9 @@
             this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.Black;
-<<<<<<< HEAD
-            this.label4.Location = new System.Drawing.Point(38, 458);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(144, 23);
-=======
             this.label4.Location = new System.Drawing.Point(57, 455);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(111, 18);
->>>>>>> 63b5f92bacd5f86aac1e412d8f4a4bbb365d4fc1
+            this.label4.Size = new System.Drawing.Size(144, 23);
             this.label4.TabIndex = 1;
             this.label4.Text = "Registration No.";
             // 
@@ -207,11 +153,7 @@
             // 
             this.textBox4.Location = new System.Drawing.Point(188, 455);
             this.textBox4.Name = "textBox4";
-<<<<<<< HEAD
             this.textBox4.Size = new System.Drawing.Size(314, 30);
-=======
-            this.textBox4.Size = new System.Drawing.Size(314, 26);
->>>>>>> 63b5f92bacd5f86aac1e412d8f4a4bbb365d4fc1
             this.textBox4.TabIndex = 2;
             // 
             // SignUP_button
@@ -226,10 +168,6 @@
             this.SignUP_button.TabIndex = 3;
             this.SignUP_button.Text = "Sign Up";
             this.SignUP_button.UseVisualStyleBackColor = false;
-<<<<<<< HEAD
-            this.SignUP_button.Click += new System.EventHandler(this.SignUP_button_Click);
-=======
->>>>>>> 63b5f92bacd5f86aac1e412d8f4a4bbb365d4fc1
             // 
             // reset_button
             // 
@@ -242,15 +180,10 @@
             this.reset_button.TabIndex = 4;
             this.reset_button.Text = "Reset";
             this.reset_button.UseVisualStyleBackColor = false;
-            this.reset_button.Click += new System.EventHandler(this.reset_button_Click);
             // 
             // pha_reg
             // 
-<<<<<<< HEAD
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 23F);
-=======
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
->>>>>>> 63b5f92bacd5f86aac1e412d8f4a4bbb365d4fc1
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
@@ -269,15 +202,9 @@
             this.Controls.Add(this.Name_lable);
             this.Controls.Add(this.ph_reg_lable);
             this.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-<<<<<<< HEAD
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "pha_reg";
             this.Text = "Pharmacy Registration";
-=======
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.Name = "pha_reg";
-            this.Text = "pha_reg";
->>>>>>> 63b5f92bacd5f86aac1e412d8f4a4bbb365d4fc1
             this.ResumeLayout(false);
             this.PerformLayout();
 

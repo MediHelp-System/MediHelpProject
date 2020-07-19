@@ -27,13 +27,10 @@ namespace MediHelp_System
 
         }
 
-        private void reset_button_Click(object sender, EventArgs e)
-<<<<<<< HEAD
-private void SignUP_button_Click(object sender, EventArgs e)
+        private void SignUP_button_Click(object sender, EventArgs e)
         {
 
         }
-=======
->>>>>>> 63b5f92bacd5f86aac1e412d8f4a4bbb365d4fc1
+
     }
 }
