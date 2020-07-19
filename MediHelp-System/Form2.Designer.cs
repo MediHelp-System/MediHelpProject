@@ -73,9 +73,10 @@
             // 
             // name_textBox
             // 
+            this.name_textBox.Font = new System.Drawing.Font("Tahoma", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.name_textBox.Location = new System.Drawing.Point(188, 253);
             this.name_textBox.Name = "name_textBox";
-            this.name_textBox.Size = new System.Drawing.Size(314, 30);
+            this.name_textBox.Size = new System.Drawing.Size(393, 36);
             this.name_textBox.TabIndex = 2;
             // 
             // address_label
@@ -92,6 +93,7 @@
             // 
             // address_textBox
             // 
+            this.address_textBox.Font = new System.Drawing.Font("Tahoma", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.address_textBox.Location = new System.Drawing.Point(188, 299);
             this.address_textBox.Multiline = true;
             this.address_textBox.Name = "address_textBox";
@@ -113,9 +115,10 @@
             // 
             // contact_textBox
             // 
+            this.contact_textBox.Font = new System.Drawing.Font("Tahoma", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.contact_textBox.Location = new System.Drawing.Point(188, 365);
             this.contact_textBox.Name = "contact_textBox";
-            this.contact_textBox.Size = new System.Drawing.Size(314, 30);
+            this.contact_textBox.Size = new System.Drawing.Size(393, 36);
             this.contact_textBox.TabIndex = 2;
             // 
             // PhamaID_lable
@@ -132,9 +135,10 @@
             // 
             // PhamaID_textBox
             // 
+            this.PhamaID_textBox.Font = new System.Drawing.Font("Tahoma", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.PhamaID_textBox.Location = new System.Drawing.Point(188, 410);
             this.PhamaID_textBox.Name = "PhamaID_textBox";
-            this.PhamaID_textBox.Size = new System.Drawing.Size(314, 30);
+            this.PhamaID_textBox.Size = new System.Drawing.Size(393, 36);
             this.PhamaID_textBox.TabIndex = 2;
             // 
             // label4
@@ -151,9 +155,10 @@
             // 
             // textBox4
             // 
+            this.textBox4.Font = new System.Drawing.Font("Tahoma", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox4.Location = new System.Drawing.Point(188, 455);
             this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(314, 30);
+            this.textBox4.Size = new System.Drawing.Size(393, 36);
             this.textBox4.TabIndex = 2;
             // 
             // SignUP_button
