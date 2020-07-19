@@ -42,10 +42,10 @@
             this.lblLogin.AutoSize = true;
             this.lblLogin.BackColor = System.Drawing.Color.Transparent;
             this.lblLogin.Font = new System.Drawing.Font("Tahoma", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblLogin.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblLogin.ForeColor = System.Drawing.SystemColors.ActiveCaption;
             this.lblLogin.Location = new System.Drawing.Point(712, 169);
             this.lblLogin.Name = "lblLogin";
-            this.lblLogin.Size = new System.Drawing.Size(131, 48);
+            this.lblLogin.Size = new System.Drawing.Size(105, 39);
             this.lblLogin.TabIndex = 0;
             this.lblLogin.Text = "Login";
             this.lblLogin.Click += new System.EventHandler(this.label1_Click);
@@ -54,11 +54,11 @@
             // 
             this.lblUsername.AutoSize = true;
             this.lblUsername.BackColor = System.Drawing.Color.Transparent;
-            this.lblUsername.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblUsername.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.lblUsername.Location = new System.Drawing.Point(600, 260);
+            this.lblUsername.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblUsername.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblUsername.Location = new System.Drawing.Point(591, 258);
             this.lblUsername.Name = "lblUsername";
-            this.lblUsername.Size = new System.Drawing.Size(106, 24);
+            this.lblUsername.Size = new System.Drawing.Size(96, 19);
             this.lblUsername.TabIndex = 1;
             this.lblUsername.Text = "User name";
             // 
@@ -66,11 +66,11 @@
             // 
             this.lblPassword.AutoSize = true;
             this.lblPassword.BackColor = System.Drawing.Color.Transparent;
-            this.lblPassword.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPassword.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblPassword.ForeColor = System.Drawing.SystemColors.Desktop;
             this.lblPassword.Location = new System.Drawing.Point(600, 313);
             this.lblPassword.Name = "lblPassword";
-            this.lblPassword.Size = new System.Drawing.Size(94, 24);
+            this.lblPassword.Size = new System.Drawing.Size(87, 19);
             this.lblPassword.TabIndex = 1;
             this.lblPassword.Text = "Password";
             this.lblPassword.Click += new System.EventHandler(this.label3_Click);
@@ -79,20 +79,22 @@
             // 
             this.txtUsername.Location = new System.Drawing.Point(744, 261);
             this.txtUsername.Name = "txtUsername";
-            this.txtUsername.Size = new System.Drawing.Size(182, 23);
+            this.txtUsername.Size = new System.Drawing.Size(182, 20);
             this.txtUsername.TabIndex = 2;
             // 
             // txtPassword
             // 
             this.txtPassword.Location = new System.Drawing.Point(744, 317);
             this.txtPassword.Name = "txtPassword";
-            this.txtPassword.Size = new System.Drawing.Size(182, 23);
+            this.txtPassword.Size = new System.Drawing.Size(182, 20);
             this.txtPassword.TabIndex = 2;
             // 
             // btnLogin
             // 
             this.btnLogin.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(205)))), ((int)(((byte)(166)))));
-            this.btnLogin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnLogin.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnLogin.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnLogin.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnLogin.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnLogin.Location = new System.Drawing.Point(787, 396);
             this.btnLogin.Name = "btnLogin";
@@ -104,7 +106,8 @@
             // 
             // btnReset
             // 
-            this.btnReset.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnReset.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnReset.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnReset.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnReset.Location = new System.Drawing.Point(635, 396);
             this.btnReset.Name = "btnReset";
@@ -116,7 +119,7 @@
             // 
             // Login
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::MediHelp_System.Properties.Resources.Login;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
