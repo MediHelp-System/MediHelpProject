@@ -40,3 +40,4 @@ F:\C# Programming\MediHelp-System\MediHelpProject\MediHelp-System\obj\Debug\Medi
 F:\C# Programming\MediHelp-System\MediHelpProject\MediHelp-System\bin\Debug\MediHelp-System.exe.config
 F:\C# Programming\MediHelp-System\MediHelpProject\MediHelp-System\bin\Debug\MediHelp-System.exe
 F:\C# Programming\MediHelp-System\MediHelpProject\MediHelp-System\bin\Debug\MediHelp-System.pdb
+F:\C# Programming\MediHelp-System\MediHelpProject\MediHelp-System\obj\Debug\MediHelp_System.Form3.resources
