@@ -39,7 +39,10 @@ namespace MediHelp_System
             {
                 if (txtUsername.Text == "Admin" && txtPassword.Text == "admin12345")
                 {
-                    MessageBox.Show("Admin Interface");
+                    //MessageBox.Show("Admin Interface");
+                    this.Hide();
+                    Form3 form3 = new Form3();
+                    form3.Show();
                 }
                 else if(txtUsername.Text == "COM" && txtPassword.Text == "com12345")
                 {
