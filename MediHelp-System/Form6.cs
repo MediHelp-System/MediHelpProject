@@ -28,5 +28,12 @@ namespace MediHelp_System
             Login log = new Login();
             log.Show();
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Form7 com = new Form7();
+            com.Show();
+        }
     }
 }
