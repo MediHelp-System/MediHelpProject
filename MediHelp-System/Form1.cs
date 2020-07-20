@@ -46,7 +46,10 @@ namespace MediHelp_System
                 }
                 else if(txtUsername.Text == "COM" && txtPassword.Text == "com12345")
                 {
-                    MessageBox.Show("COM Interface");
+                    //MessageBox.Show("COM Interface");
+                    this.Hide();
+                    COM com = new COM();
+                    com.Show();
                 }
                 else if(txtUsername.Text == "OM" && txtPassword.Text == "om12345")
                 {

@@ -42,6 +42,7 @@
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.SignUP_button = new System.Windows.Forms.Button();
             this.reset_button = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // ph_reg_lable
@@ -76,7 +77,7 @@
             this.name_textBox.Font = new System.Drawing.Font("Tahoma", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.name_textBox.Location = new System.Drawing.Point(188, 253);
             this.name_textBox.Name = "name_textBox";
-            this.name_textBox.Size = new System.Drawing.Size(393, 36);
+            this.name_textBox.Size = new System.Drawing.Size(393, 29);
             this.name_textBox.TabIndex = 2;
             // 
             // address_label
@@ -118,7 +119,7 @@
             this.contact_textBox.Font = new System.Drawing.Font("Tahoma", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.contact_textBox.Location = new System.Drawing.Point(188, 365);
             this.contact_textBox.Name = "contact_textBox";
-            this.contact_textBox.Size = new System.Drawing.Size(393, 36);
+            this.contact_textBox.Size = new System.Drawing.Size(393, 29);
             this.contact_textBox.TabIndex = 2;
             // 
             // PhamaID_lable
@@ -138,7 +139,7 @@
             this.PhamaID_textBox.Font = new System.Drawing.Font("Tahoma", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.PhamaID_textBox.Location = new System.Drawing.Point(188, 410);
             this.PhamaID_textBox.Name = "PhamaID_textBox";
-            this.PhamaID_textBox.Size = new System.Drawing.Size(393, 36);
+            this.PhamaID_textBox.Size = new System.Drawing.Size(393, 29);
             this.PhamaID_textBox.TabIndex = 2;
             // 
             // label4
@@ -158,7 +159,7 @@
             this.textBox4.Font = new System.Drawing.Font("Tahoma", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox4.Location = new System.Drawing.Point(188, 455);
             this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(393, 36);
+            this.textBox4.Size = new System.Drawing.Size(393, 29);
             this.textBox4.TabIndex = 2;
             // 
             // SignUP_button
@@ -167,7 +168,7 @@
             this.SignUP_button.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.SignUP_button.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.SignUP_button.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.SignUP_button.Location = new System.Drawing.Point(376, 516);
+            this.SignUP_button.Location = new System.Drawing.Point(480, 516);
             this.SignUP_button.Name = "SignUP_button";
             this.SignUP_button.Size = new System.Drawing.Size(117, 46);
             this.SignUP_button.TabIndex = 3;
@@ -179,12 +180,26 @@
             this.reset_button.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.reset_button.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.reset_button.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.reset_button.Location = new System.Drawing.Point(204, 516);
+            this.reset_button.Location = new System.Drawing.Point(298, 516);
             this.reset_button.Name = "reset_button";
             this.reset_button.Size = new System.Drawing.Size(109, 46);
             this.reset_button.TabIndex = 4;
             this.reset_button.Text = "Reset";
             this.reset_button.UseVisualStyleBackColor = false;
+            this.reset_button.Click += new System.EventHandler(this.reset_button_Click);
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.White;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button1.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(112, 516);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(109, 46);
+            this.button1.TabIndex = 4;
+            this.button1.Text = "< Back";
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // pha_reg
             // 
@@ -193,6 +208,7 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1200, 623);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.reset_button);
             this.Controls.Add(this.SignUP_button);
             this.Controls.Add(this.textBox4);
@@ -231,5 +247,6 @@
         private System.Windows.Forms.TextBox textBox4;
         private System.Windows.Forms.Button SignUP_button;
         private System.Windows.Forms.Button reset_button;
+        private System.Windows.Forms.Button button1;
     }
 }

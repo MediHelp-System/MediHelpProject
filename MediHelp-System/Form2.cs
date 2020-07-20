@@ -32,5 +32,20 @@ namespace MediHelp_System
 
         }
 
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Form3 form3Ad = new Form3();
+            form3Ad.Show();
+        }
+
+        private void reset_button_Click(object sender, EventArgs e)
+        {
+            name_textBox.Text = "";
+            address_textBox.Text = "";
+            contact_textBox.Text = "";
+            PhamaID_textBox.Text = "";
+            textBox4.Text = "";
+        }
     }
 }

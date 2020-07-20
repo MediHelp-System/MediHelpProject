@@ -23,5 +23,12 @@ namespace MediHelp_System
             pha_reg reg = new pha_reg();
             reg.Show();
         }
+
+        private void btnLogoutAdmin_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Login formlog = new Login();
+            formlog.Show();
+        }
     }
 }

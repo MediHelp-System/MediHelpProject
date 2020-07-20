@@ -41,3 +41,16 @@ F:\C# Programming\MediHelp-System\MediHelpProject\MediHelp-System\bin\Debug\Medi
 F:\C# Programming\MediHelp-System\MediHelpProject\MediHelp-System\bin\Debug\MediHelp-System.exe
 F:\C# Programming\MediHelp-System\MediHelpProject\MediHelp-System\bin\Debug\MediHelp-System.pdb
 F:\C# Programming\MediHelp-System\MediHelpProject\MediHelp-System\obj\Debug\MediHelp_System.Form3.resources
+E:\3rd sem\c#\C# project\MediHelp - System\MediHelpProject\MediHelp-System\bin\Debug\MediHelp-System.exe.config
+E:\3rd sem\c#\C# project\MediHelp - System\MediHelpProject\MediHelp-System\bin\Debug\MediHelp-System.exe
+E:\3rd sem\c#\C# project\MediHelp - System\MediHelpProject\MediHelp-System\bin\Debug\MediHelp-System.pdb
+E:\3rd sem\c#\C# project\MediHelp - System\MediHelpProject\MediHelp-System\obj\Debug\MediHelp-System.csprojAssemblyReference.cache
+E:\3rd sem\c#\C# project\MediHelp - System\MediHelpProject\MediHelp-System\obj\Debug\MediHelp_System.COM.resources
+E:\3rd sem\c#\C# project\MediHelp - System\MediHelpProject\MediHelp-System\obj\Debug\MediHelp_System.Login.resources
+E:\3rd sem\c#\C# project\MediHelp - System\MediHelpProject\MediHelp-System\obj\Debug\MediHelp_System.pha_reg.resources
+E:\3rd sem\c#\C# project\MediHelp - System\MediHelpProject\MediHelp-System\obj\Debug\MediHelp_System.Form3.resources
+E:\3rd sem\c#\C# project\MediHelp - System\MediHelpProject\MediHelp-System\obj\Debug\MediHelp_System.Properties.Resources.resources
+E:\3rd sem\c#\C# project\MediHelp - System\MediHelpProject\MediHelp-System\obj\Debug\MediHelp-System.csproj.GenerateResource.cache
+E:\3rd sem\c#\C# project\MediHelp - System\MediHelpProject\MediHelp-System\obj\Debug\MediHelp-System.csproj.CoreCompileInputs.cache
+E:\3rd sem\c#\C# project\MediHelp - System\MediHelpProject\MediHelp-System\obj\Debug\MediHelp-System.exe
+E:\3rd sem\c#\C# project\MediHelp - System\MediHelpProject\MediHelp-System\obj\Debug\MediHelp-System.pdb
