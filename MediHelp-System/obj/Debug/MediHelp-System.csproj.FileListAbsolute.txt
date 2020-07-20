@@ -54,3 +54,17 @@ E:\3rd sem\c#\C# project\MediHelp - System\MediHelpProject\MediHelp-System\obj\D
 E:\3rd sem\c#\C# project\MediHelp - System\MediHelpProject\MediHelp-System\obj\Debug\MediHelp-System.csproj.CoreCompileInputs.cache
 E:\3rd sem\c#\C# project\MediHelp - System\MediHelpProject\MediHelp-System\obj\Debug\MediHelp-System.exe
 E:\3rd sem\c#\C# project\MediHelp - System\MediHelpProject\MediHelp-System\obj\Debug\MediHelp-System.pdb
+E:\NSBM\medi help proj\medihelp\MediHelpProject\MediHelp-System\bin\Debug\MediHelp-System.exe.config
+E:\NSBM\medi help proj\medihelp\MediHelpProject\MediHelp-System\bin\Debug\MediHelp-System.exe
+E:\NSBM\medi help proj\medihelp\MediHelpProject\MediHelp-System\bin\Debug\MediHelp-System.pdb
+E:\NSBM\medi help proj\medihelp\MediHelpProject\MediHelp-System\obj\Debug\MediHelp-System.csprojAssemblyReference.cache
+E:\NSBM\medi help proj\medihelp\MediHelpProject\MediHelp-System\obj\Debug\MediHelp_System.COM.resources
+E:\NSBM\medi help proj\medihelp\MediHelpProject\MediHelp-System\obj\Debug\MediHelp_System.Login.resources
+E:\NSBM\medi help proj\medihelp\MediHelpProject\MediHelp-System\obj\Debug\MediHelp_System.pha_reg.resources
+E:\NSBM\medi help proj\medihelp\MediHelpProject\MediHelp-System\obj\Debug\MediHelp_System.Form3.resources
+E:\NSBM\medi help proj\medihelp\MediHelpProject\MediHelp-System\obj\Debug\MediHelp_System.Form5.resources
+E:\NSBM\medi help proj\medihelp\MediHelpProject\MediHelp-System\obj\Debug\MediHelp_System.Properties.Resources.resources
+E:\NSBM\medi help proj\medihelp\MediHelpProject\MediHelp-System\obj\Debug\MediHelp-System.csproj.GenerateResource.cache
+E:\NSBM\medi help proj\medihelp\MediHelpProject\MediHelp-System\obj\Debug\MediHelp-System.csproj.CoreCompileInputs.cache
+E:\NSBM\medi help proj\medihelp\MediHelpProject\MediHelp-System\obj\Debug\MediHelp-System.exe
+E:\NSBM\medi help proj\medihelp\MediHelpProject\MediHelp-System\obj\Debug\MediHelp-System.pdb
