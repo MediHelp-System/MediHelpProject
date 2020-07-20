@@ -39,7 +39,7 @@
             this.btnCustomerReg.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(205)))), ((int)(((byte)(166)))));
             this.btnCustomerReg.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnCustomerReg.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCustomerReg.Location = new System.Drawing.Point(198, 174);
+            this.btnCustomerReg.Location = new System.Drawing.Point(220, 174);
             this.btnCustomerReg.Name = "btnCustomerReg";
             this.btnCustomerReg.Size = new System.Drawing.Size(132, 55);
             this.btnCustomerReg.TabIndex = 0;
@@ -52,7 +52,7 @@
             this.btnInput.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(205)))), ((int)(((byte)(166)))));
             this.btnInput.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnInput.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnInput.Location = new System.Drawing.Point(470, 174);
+            this.btnInput.Location = new System.Drawing.Point(677, 174);
             this.btnInput.Name = "btnInput";
             this.btnInput.Size = new System.Drawing.Size(132, 55);
             this.btnInput.TabIndex = 0;
@@ -63,7 +63,7 @@
             // 
             this.btnBack.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnBack.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnBack.Location = new System.Drawing.Point(633, 362);
+            this.btnBack.Location = new System.Drawing.Point(805, 447);
             this.btnBack.Name = "btnBack";
             this.btnBack.Size = new System.Drawing.Size(109, 47);
             this.btnBack.TabIndex = 1;
@@ -77,7 +77,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(978, 573);
             this.Controls.Add(this.btnBack);
             this.Controls.Add(this.btnInput);
             this.Controls.Add(this.btnCustomerReg);

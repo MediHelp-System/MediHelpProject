@@ -32,5 +32,10 @@ namespace MediHelp_System
             COM com = new COM();
             com.Show();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

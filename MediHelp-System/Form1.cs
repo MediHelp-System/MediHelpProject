@@ -53,7 +53,10 @@ namespace MediHelp_System
                 }
                 else if(txtUsername.Text == "OM" && txtPassword.Text == "om12345")
                 {
-                    MessageBox.Show("OM Interface");
+                    //MessageBox.Show("OM Interface");
+                    this.Hide();
+                    Form6 form6 = new Form6();
+                    form6.Show();
                 }
                 else
                 {
