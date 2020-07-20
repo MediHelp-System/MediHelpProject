@@ -45,6 +45,7 @@
             this.btnCustomerReg.TabIndex = 0;
             this.btnCustomerReg.Text = "Customer Registration";
             this.btnCustomerReg.UseVisualStyleBackColor = false;
+            this.btnCustomerReg.Click += new System.EventHandler(this.btnCustomerReg_Click);
             // 
             // btnInput
             // 

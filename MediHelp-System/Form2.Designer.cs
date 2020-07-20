@@ -78,7 +78,7 @@
             this.name_textBox.Location = new System.Drawing.Point(188, 253);
             this.name_textBox.Name = "name_textBox";
             this.name_textBox.Size = new System.Drawing.Size(393, 29);
-            this.name_textBox.TabIndex = 2;
+            this.name_textBox.TabIndex = 0;
             // 
             // address_label
             // 
@@ -99,7 +99,7 @@
             this.address_textBox.Multiline = true;
             this.address_textBox.Name = "address_textBox";
             this.address_textBox.Size = new System.Drawing.Size(314, 49);
-            this.address_textBox.TabIndex = 2;
+            this.address_textBox.TabIndex = 1;
             // 
             // Contact_lable
             // 
@@ -140,7 +140,7 @@
             this.PhamaID_textBox.Location = new System.Drawing.Point(188, 410);
             this.PhamaID_textBox.Name = "PhamaID_textBox";
             this.PhamaID_textBox.Size = new System.Drawing.Size(393, 29);
-            this.PhamaID_textBox.TabIndex = 2;
+            this.PhamaID_textBox.TabIndex = 3;
             // 
             // label4
             // 
@@ -160,7 +160,7 @@
             this.textBox4.Location = new System.Drawing.Point(188, 455);
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(393, 29);
-            this.textBox4.TabIndex = 2;
+            this.textBox4.TabIndex = 4;
             // 
             // SignUP_button
             // 
@@ -171,7 +171,7 @@
             this.SignUP_button.Location = new System.Drawing.Point(480, 516);
             this.SignUP_button.Name = "SignUP_button";
             this.SignUP_button.Size = new System.Drawing.Size(117, 46);
-            this.SignUP_button.TabIndex = 3;
+            this.SignUP_button.TabIndex = 5;
             this.SignUP_button.Text = "Sign Up";
             this.SignUP_button.UseVisualStyleBackColor = false;
             // 
@@ -183,7 +183,7 @@
             this.reset_button.Location = new System.Drawing.Point(298, 516);
             this.reset_button.Name = "reset_button";
             this.reset_button.Size = new System.Drawing.Size(109, 46);
-            this.reset_button.TabIndex = 4;
+            this.reset_button.TabIndex = 6;
             this.reset_button.Text = "Reset";
             this.reset_button.UseVisualStyleBackColor = false;
             this.reset_button.Click += new System.EventHandler(this.reset_button_Click);
@@ -196,7 +196,7 @@
             this.button1.Location = new System.Drawing.Point(112, 516);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(109, 46);
-            this.button1.TabIndex = 4;
+            this.button1.TabIndex = 7;
             this.button1.Text = "< Back";
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);

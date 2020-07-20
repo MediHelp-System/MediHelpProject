@@ -45,7 +45,7 @@
             this.lblLogin.ForeColor = System.Drawing.SystemColors.ActiveCaption;
             this.lblLogin.Location = new System.Drawing.Point(712, 169);
             this.lblLogin.Name = "lblLogin";
-            this.lblLogin.Size = new System.Drawing.Size(105, 39);
+            this.lblLogin.Size = new System.Drawing.Size(131, 48);
             this.lblLogin.TabIndex = 0;
             this.lblLogin.Text = "Login";
             this.lblLogin.Click += new System.EventHandler(this.label1_Click);
@@ -58,7 +58,7 @@
             this.lblUsername.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblUsername.Location = new System.Drawing.Point(591, 258);
             this.lblUsername.Name = "lblUsername";
-            this.lblUsername.Size = new System.Drawing.Size(96, 19);
+            this.lblUsername.Size = new System.Drawing.Size(118, 24);
             this.lblUsername.TabIndex = 1;
             this.lblUsername.Text = "User name";
             // 
@@ -70,7 +70,7 @@
             this.lblPassword.ForeColor = System.Drawing.SystemColors.Desktop;
             this.lblPassword.Location = new System.Drawing.Point(600, 313);
             this.lblPassword.Name = "lblPassword";
-            this.lblPassword.Size = new System.Drawing.Size(87, 19);
+            this.lblPassword.Size = new System.Drawing.Size(107, 24);
             this.lblPassword.TabIndex = 1;
             this.lblPassword.Text = "Password";
             this.lblPassword.Click += new System.EventHandler(this.label3_Click);
@@ -79,15 +79,16 @@
             // 
             this.txtUsername.Location = new System.Drawing.Point(744, 261);
             this.txtUsername.Name = "txtUsername";
-            this.txtUsername.Size = new System.Drawing.Size(182, 20);
-            this.txtUsername.TabIndex = 2;
+            this.txtUsername.Size = new System.Drawing.Size(182, 23);
+            this.txtUsername.TabIndex = 0;
             // 
             // txtPassword
             // 
             this.txtPassword.Location = new System.Drawing.Point(744, 317);
             this.txtPassword.Name = "txtPassword";
-            this.txtPassword.Size = new System.Drawing.Size(182, 20);
-            this.txtPassword.TabIndex = 2;
+            this.txtPassword.PasswordChar = '*';
+            this.txtPassword.Size = new System.Drawing.Size(182, 23);
+            this.txtPassword.TabIndex = 1;
             // 
             // btnLogin
             // 
@@ -99,7 +100,7 @@
             this.btnLogin.Location = new System.Drawing.Point(787, 396);
             this.btnLogin.Name = "btnLogin";
             this.btnLogin.Size = new System.Drawing.Size(110, 45);
-            this.btnLogin.TabIndex = 3;
+            this.btnLogin.TabIndex = 2;
             this.btnLogin.Text = "Login";
             this.btnLogin.UseVisualStyleBackColor = false;
             this.btnLogin.Click += new System.EventHandler(this.btnLogin_Click);
@@ -119,7 +120,7 @@
             // 
             // Login
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::MediHelp_System.Properties.Resources.Login;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;

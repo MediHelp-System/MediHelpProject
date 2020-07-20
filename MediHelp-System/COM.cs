@@ -24,5 +24,12 @@ namespace MediHelp_System
             form1.Show();
             
         }
+
+        private void btnCustomerReg_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Form5 form5 = new Form5();
+            form5.Show();
+        }
     }
 }
