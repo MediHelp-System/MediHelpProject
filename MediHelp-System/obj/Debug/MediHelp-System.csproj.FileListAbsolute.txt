@@ -88,3 +88,5 @@ E:\NSBM\medi help proj\medihelp\med\MediHelpProject\MediHelp-System\obj\Debug\Me
 E:\NSBM\medi help proj\medihelp\med\MediHelpProject\MediHelp-System\bin\Debug\MediHelp-System.exe.config
 E:\NSBM\medi help proj\medihelp\med\MediHelpProject\MediHelp-System\bin\Debug\MediHelp-System.exe
 E:\NSBM\medi help proj\medihelp\med\MediHelpProject\MediHelp-System\bin\Debug\MediHelp-System.pdb
+E:\3rd sem\c#\C# project\MediHelp - System\MediHelpProject\MediHelp-System\obj\Debug\MediHelp_System.Form7.resources
+E:\3rd sem\c#\C# project\MediHelp - System\MediHelpProject\MediHelp-System\obj\Debug\MediHelp_System.Form8.resources

@@ -52,12 +52,13 @@
             this.btnInput.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(205)))), ((int)(((byte)(166)))));
             this.btnInput.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnInput.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnInput.Location = new System.Drawing.Point(677, 174);
+            this.btnInput.Location = new System.Drawing.Point(647, 174);
             this.btnInput.Name = "btnInput";
             this.btnInput.Size = new System.Drawing.Size(132, 55);
             this.btnInput.TabIndex = 0;
             this.btnInput.Text = "Input Order Details";
             this.btnInput.UseVisualStyleBackColor = false;
+            this.btnInput.Click += new System.EventHandler(this.btnInput_Click);
             // 
             // btnBack
             // 

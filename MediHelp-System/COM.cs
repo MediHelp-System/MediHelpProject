@@ -31,5 +31,12 @@ namespace MediHelp_System
             Form5 form5 = new Form5();
             form5.Show();
         }
+
+        private void btnInput_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Form8 form8 = new Form8();
+            form8.Show();
+        }
     }
 }
