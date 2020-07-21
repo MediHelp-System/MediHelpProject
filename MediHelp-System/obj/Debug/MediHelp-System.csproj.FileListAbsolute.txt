@@ -90,3 +90,19 @@ E:\NSBM\medi help proj\medihelp\med\MediHelpProject\MediHelp-System\bin\Debug\Me
 E:\NSBM\medi help proj\medihelp\med\MediHelpProject\MediHelp-System\bin\Debug\MediHelp-System.pdb
 E:\3rd sem\c#\C# project\MediHelp - System\MediHelpProject\MediHelp-System\obj\Debug\MediHelp_System.Form7.resources
 E:\3rd sem\c#\C# project\MediHelp - System\MediHelpProject\MediHelp-System\obj\Debug\MediHelp_System.Form8.resources
+H:\medihelp_project\MediHelpProject\MediHelp-System\bin\Debug\MediHelp-System.exe.config
+H:\medihelp_project\MediHelpProject\MediHelp-System\bin\Debug\MediHelp-System.exe
+H:\medihelp_project\MediHelpProject\MediHelp-System\bin\Debug\MediHelp-System.pdb
+H:\medihelp_project\MediHelpProject\MediHelp-System\obj\Debug\MediHelp-System.csprojAssemblyReference.cache
+H:\medihelp_project\MediHelpProject\MediHelp-System\obj\Debug\MediHelp_System.COM.resources
+H:\medihelp_project\MediHelpProject\MediHelp-System\obj\Debug\MediHelp_System.Login.resources
+H:\medihelp_project\MediHelpProject\MediHelp-System\obj\Debug\MediHelp_System.pha_reg.resources
+H:\medihelp_project\MediHelpProject\MediHelp-System\obj\Debug\MediHelp_System.Form3.resources
+H:\medihelp_project\MediHelpProject\MediHelp-System\obj\Debug\MediHelp_System.Form5.resources
+H:\medihelp_project\MediHelpProject\MediHelp-System\obj\Debug\MediHelp_System.Form6.resources
+H:\medihelp_project\MediHelpProject\MediHelp-System\obj\Debug\MediHelp_System.Form7.resources
+H:\medihelp_project\MediHelpProject\MediHelp-System\obj\Debug\MediHelp_System.Form8.resources
+H:\medihelp_project\MediHelpProject\MediHelp-System\obj\Debug\MediHelp_System.Properties.Resources.resources
+H:\medihelp_project\MediHelpProject\MediHelp-System\obj\Debug\MediHelp-System.csproj.GenerateResource.cache
+H:\medihelp_project\MediHelpProject\MediHelp-System\obj\Debug\MediHelp-System.exe
+H:\medihelp_project\MediHelpProject\MediHelp-System\obj\Debug\MediHelp-System.pdb

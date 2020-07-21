@@ -20,8 +20,8 @@ namespace MediHelp_System
         private void button1_Click(object sender, EventArgs e)
         {
             this.Hide();
-            pha_reg reg = new pha_reg();
-            reg.Show();
+            pha_reg pha = new pha_reg();
+            pha.Show();
         }
 
         private void btnLogoutAdmin_Click(object sender, EventArgs e)
@@ -29,6 +29,20 @@ namespace MediHelp_System
             this.Hide();
             Login formlog = new Login();
             formlog.Show();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            COM com = new COM();
+            com.Show();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Form6 form6 = new Form6();
+            form6.Show();
         }
     }
 }
