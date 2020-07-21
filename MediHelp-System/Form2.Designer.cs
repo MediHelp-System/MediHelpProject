@@ -36,8 +36,6 @@
             this.address_textBox = new System.Windows.Forms.TextBox();
             this.Contact_lable = new System.Windows.Forms.Label();
             this.contact_textBox = new System.Windows.Forms.TextBox();
-            this.PhamaID_lable = new System.Windows.Forms.Label();
-            this.PhamaID_textBox = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.SignUP_button = new System.Windows.Forms.Button();
@@ -54,7 +52,7 @@
             this.ph_reg_lable.Location = new System.Drawing.Point(183, 177);
             this.ph_reg_lable.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.ph_reg_lable.Name = "ph_reg_lable";
-            this.ph_reg_lable.Size = new System.Drawing.Size(311, 33);
+            this.ph_reg_lable.Size = new System.Drawing.Size(241, 25);
             this.ph_reg_lable.TabIndex = 0;
             this.ph_reg_lable.Text = "Pharmacy Regitration";
             this.ph_reg_lable.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -68,7 +66,7 @@
             this.Name_lable.ForeColor = System.Drawing.Color.Black;
             this.Name_lable.Location = new System.Drawing.Point(121, 253);
             this.Name_lable.Name = "Name_lable";
-            this.Name_lable.Size = new System.Drawing.Size(59, 23);
+            this.Name_lable.Size = new System.Drawing.Size(47, 18);
             this.Name_lable.TabIndex = 1;
             this.Name_lable.Text = "Name";
             // 
@@ -77,7 +75,7 @@
             this.name_textBox.Font = new System.Drawing.Font("Tahoma", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.name_textBox.Location = new System.Drawing.Point(188, 253);
             this.name_textBox.Name = "name_textBox";
-            this.name_textBox.Size = new System.Drawing.Size(393, 29);
+            this.name_textBox.Size = new System.Drawing.Size(393, 25);
             this.name_textBox.TabIndex = 0;
             // 
             // address_label
@@ -88,7 +86,7 @@
             this.address_label.ForeColor = System.Drawing.Color.Black;
             this.address_label.Location = new System.Drawing.Point(108, 299);
             this.address_label.Name = "address_label";
-            this.address_label.Size = new System.Drawing.Size(76, 23);
+            this.address_label.Size = new System.Drawing.Size(60, 18);
             this.address_label.TabIndex = 1;
             this.address_label.Text = "Address";
             // 
@@ -109,7 +107,7 @@
             this.Contact_lable.ForeColor = System.Drawing.Color.Black;
             this.Contact_lable.Location = new System.Drawing.Point(82, 365);
             this.Contact_lable.Name = "Contact_lable";
-            this.Contact_lable.Size = new System.Drawing.Size(108, 23);
+            this.Contact_lable.Size = new System.Drawing.Size(86, 18);
             this.Contact_lable.TabIndex = 1;
             this.Contact_lable.Text = "Contact No.";
             this.Contact_lable.Click += new System.EventHandler(this.label2_Click);
@@ -119,28 +117,8 @@
             this.contact_textBox.Font = new System.Drawing.Font("Tahoma", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.contact_textBox.Location = new System.Drawing.Point(188, 365);
             this.contact_textBox.Name = "contact_textBox";
-            this.contact_textBox.Size = new System.Drawing.Size(393, 29);
+            this.contact_textBox.Size = new System.Drawing.Size(393, 25);
             this.contact_textBox.TabIndex = 2;
-            // 
-            // PhamaID_lable
-            // 
-            this.PhamaID_lable.AutoSize = true;
-            this.PhamaID_lable.BackColor = System.Drawing.Color.Transparent;
-            this.PhamaID_lable.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.PhamaID_lable.ForeColor = System.Drawing.Color.Black;
-            this.PhamaID_lable.Location = new System.Drawing.Point(74, 410);
-            this.PhamaID_lable.Name = "PhamaID_lable";
-            this.PhamaID_lable.Size = new System.Drawing.Size(118, 23);
-            this.PhamaID_lable.TabIndex = 1;
-            this.PhamaID_lable.Text = "Pharmacy ID";
-            // 
-            // PhamaID_textBox
-            // 
-            this.PhamaID_textBox.Font = new System.Drawing.Font("Tahoma", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.PhamaID_textBox.Location = new System.Drawing.Point(188, 410);
-            this.PhamaID_textBox.Name = "PhamaID_textBox";
-            this.PhamaID_textBox.Size = new System.Drawing.Size(393, 29);
-            this.PhamaID_textBox.TabIndex = 3;
             // 
             // label4
             // 
@@ -148,18 +126,18 @@
             this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.Black;
-            this.label4.Location = new System.Drawing.Point(57, 455);
+            this.label4.Location = new System.Drawing.Point(58, 418);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(144, 23);
+            this.label4.Size = new System.Drawing.Size(111, 18);
             this.label4.TabIndex = 1;
             this.label4.Text = "Registration No.";
             // 
             // textBox4
             // 
             this.textBox4.Font = new System.Drawing.Font("Tahoma", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox4.Location = new System.Drawing.Point(188, 455);
+            this.textBox4.Location = new System.Drawing.Point(189, 418);
             this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(393, 29);
+            this.textBox4.Size = new System.Drawing.Size(393, 25);
             this.textBox4.TabIndex = 4;
             // 
             // SignUP_button
@@ -203,18 +181,16 @@
             // 
             // pha_reg
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 23F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1200, 623);
+            this.ClientSize = new System.Drawing.Size(1264, 681);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.reset_button);
             this.Controls.Add(this.SignUP_button);
             this.Controls.Add(this.textBox4);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.PhamaID_textBox);
-            this.Controls.Add(this.PhamaID_lable);
             this.Controls.Add(this.contact_textBox);
             this.Controls.Add(this.Contact_lable);
             this.Controls.Add(this.address_textBox);
@@ -241,8 +217,6 @@
         private System.Windows.Forms.TextBox address_textBox;
         private System.Windows.Forms.Label Contact_lable;
         private System.Windows.Forms.TextBox contact_textBox;
-        private System.Windows.Forms.Label PhamaID_lable;
-        private System.Windows.Forms.TextBox PhamaID_textBox;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox textBox4;
         private System.Windows.Forms.Button SignUP_button;

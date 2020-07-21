@@ -44,7 +44,7 @@ namespace MediHelp_System
             name_textBox.Text = "";
             address_textBox.Text = "";
             contact_textBox.Text = "";
-            PhamaID_textBox.Text = "";
+            //PhamaID_textBox.Text = "";
             textBox4.Text = "";
         }
     }
