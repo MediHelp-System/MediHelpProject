@@ -106,3 +106,6 @@ H:\medihelp_project\MediHelpProject\MediHelp-System\obj\Debug\MediHelp_System.Pr
 H:\medihelp_project\MediHelpProject\MediHelp-System\obj\Debug\MediHelp-System.csproj.GenerateResource.cache
 H:\medihelp_project\MediHelpProject\MediHelp-System\obj\Debug\MediHelp-System.exe
 H:\medihelp_project\MediHelpProject\MediHelp-System\obj\Debug\MediHelp-System.pdb
+F:\C# Programming\MediHelp-System\MediHelpProject\MediHelp-System\obj\Debug\MediHelp_System.Form6.resources
+F:\C# Programming\MediHelp-System\MediHelpProject\MediHelp-System\obj\Debug\MediHelp_System.Form7.resources
+F:\C# Programming\MediHelp-System\MediHelpProject\MediHelp-System\obj\Debug\MediHelp_System.Form8.resources
