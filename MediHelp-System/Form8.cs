@@ -31,5 +31,15 @@ namespace MediHelp_System
             COM com = new COM();
             com.Show();
         }
+
+        private void label6_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
