@@ -109,3 +109,5 @@ H:\medihelp_project\MediHelpProject\MediHelp-System\obj\Debug\MediHelp-System.pd
 F:\C# Programming\MediHelp-System\MediHelpProject\MediHelp-System\obj\Debug\MediHelp_System.Form6.resources
 F:\C# Programming\MediHelp-System\MediHelpProject\MediHelp-System\obj\Debug\MediHelp_System.Form7.resources
 F:\C# Programming\MediHelp-System\MediHelpProject\MediHelp-System\obj\Debug\MediHelp_System.Form8.resources
+F:\C# Programming\MediHelp-System\MediHelpProject\MediHelp-System\bin\Debug\MediHelpDatabase.mdf
+F:\C# Programming\MediHelp-System\MediHelpProject\MediHelp-System\bin\Debug\MediHelpDatabase_log.ldf
