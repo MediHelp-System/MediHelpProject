@@ -38,5 +38,26 @@ namespace MediHelp_System
             Form8 form8 = new Form8();
             form8.Show();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            CustomersDetails cd = new CustomersDetails();
+            cd.Show();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            OrderDetails od = new OrderDetails();
+            od.Show();
+        }
+
+        private void COM_Load(object sender, EventArgs e)
+        {
+            this.Hide();
+            Login lg = new Login();
+            lg.Show();
+        }
     }
 }

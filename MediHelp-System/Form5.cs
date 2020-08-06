@@ -54,5 +54,12 @@ namespace MediHelp_System
                 MessageBox.Show("Registration Error!");
             }
         }
+
+        private void Form5_Load(object sender, EventArgs e)
+        {
+            this.Hide();
+            Login lg = new Login();
+            lg.Show();
+        }
     }
 }

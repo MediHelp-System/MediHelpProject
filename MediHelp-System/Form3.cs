@@ -44,5 +44,40 @@ namespace MediHelp_System
             Form6 form6 = new Form6();
             form6.Show();
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            CustomersDetails cd = new CustomersDetails();
+            cd.Show();
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            EmployesDetails ed = new EmployesDetails();
+            ed.Show();
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            PharmacyDetails pd = new PharmacyDetails();
+            pd.Show();
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            SendOrderDetails sod = new SendOrderDetails();
+            sod.Show();
+        }
+
+        private void Form3_Load(object sender, EventArgs e)
+        {
+            this.Hide();
+            Login lg = new Login();
+            lg.Show();
+        }
     }
 }

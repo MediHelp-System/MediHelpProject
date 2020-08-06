@@ -48,7 +48,9 @@ namespace MediHelp_System
 
         private void Form7_Load(object sender, EventArgs e)
         {
-
+            this.Hide();
+            Login lg = new Login();
+            lg.Show();
         }
 
         private void button2_Click(object sender, EventArgs e)

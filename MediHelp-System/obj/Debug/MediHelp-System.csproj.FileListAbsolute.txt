@@ -111,3 +111,8 @@ F:\C# Programming\MediHelp-System\MediHelpProject\MediHelp-System\obj\Debug\Medi
 F:\C# Programming\MediHelp-System\MediHelpProject\MediHelp-System\obj\Debug\MediHelp_System.Form8.resources
 F:\C# Programming\MediHelp-System\MediHelpProject\MediHelp-System\bin\Debug\MediHelpDatabase.mdf
 F:\C# Programming\MediHelp-System\MediHelpProject\MediHelp-System\bin\Debug\MediHelpDatabase_log.ldf
+F:\C# Programming\MediHelp-System\MediHelpProject\MediHelp-System\obj\Debug\MediHelp_System.CustomersDetails.resources
+F:\C# Programming\MediHelp-System\MediHelpProject\MediHelp-System\obj\Debug\MediHelp_System.EmployesDetails.resources
+F:\C# Programming\MediHelp-System\MediHelpProject\MediHelp-System\obj\Debug\MediHelp_System.OrderDetails.resources
+F:\C# Programming\MediHelp-System\MediHelpProject\MediHelp-System\obj\Debug\MediHelp_System.PharmacyDetails.resources
+F:\C# Programming\MediHelp-System\MediHelpProject\MediHelp-System\obj\Debug\MediHelp_System.SendOrderDetails.resources

@@ -143,6 +143,7 @@
             // SignUP_button
             // 
             this.SignUP_button.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(205)))), ((int)(((byte)(166)))));
+            this.SignUP_button.Cursor = System.Windows.Forms.Cursors.Hand;
             this.SignUP_button.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.SignUP_button.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.SignUP_button.ForeColor = System.Drawing.SystemColors.ControlText;
@@ -157,6 +158,7 @@
             // reset_button
             // 
             this.reset_button.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.reset_button.Cursor = System.Windows.Forms.Cursors.Hand;
             this.reset_button.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.reset_button.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.reset_button.Location = new System.Drawing.Point(298, 516);
@@ -170,6 +172,7 @@
             // button1
             // 
             this.button1.BackColor = System.Drawing.Color.White;
+            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button1.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.Location = new System.Drawing.Point(112, 516);
@@ -204,6 +207,7 @@
             this.Name = "pha_reg";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Pharmacy Registration";
+            this.Load += new System.EventHandler(this.pha_reg_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

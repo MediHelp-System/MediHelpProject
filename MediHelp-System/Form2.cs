@@ -70,5 +70,12 @@ namespace MediHelp_System
                 MessageBox.Show("Registration Error!");
             }
         }
+
+        private void pha_reg_Load(object sender, EventArgs e)
+        {
+            this.Hide();
+            Login lg = new Login();
+            lg.Show();
+        }
     }
 }

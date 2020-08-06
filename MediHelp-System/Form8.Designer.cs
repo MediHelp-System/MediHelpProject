@@ -147,6 +147,7 @@
             // 
             // button1
             // 
+            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button1.Location = new System.Drawing.Point(343, 380);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(134, 40);
@@ -158,6 +159,7 @@
             // button2
             // 
             this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(205)))), ((int)(((byte)(166)))));
+            this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button2.Location = new System.Drawing.Point(737, 457);
             this.button2.Name = "button2";
@@ -170,6 +172,7 @@
             // button3
             // 
             this.button3.BackColor = System.Drawing.Color.Silver;
+            this.button3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button3.Location = new System.Drawing.Point(562, 457);
             this.button3.Name = "button3";
@@ -182,6 +185,7 @@
             // button4
             // 
             this.button4.BackColor = System.Drawing.Color.White;
+            this.button4.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button4.Location = new System.Drawing.Point(383, 457);
             this.button4.Name = "button4";
@@ -249,6 +253,7 @@
             this.Name = "Form8";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "MediHelp - Input Order Details";
+            this.Load += new System.EventHandler(this.Form8_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

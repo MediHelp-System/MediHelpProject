@@ -83,5 +83,12 @@ namespace MediHelp_System
                 pictureBox1.Image = new Bitmap(open.FileName);
             }
         }
+
+        private void Form8_Load(object sender, EventArgs e)
+        {
+            this.Hide();
+            Login lg = new Login();
+            lg.Show();
+        }
     }
 }
