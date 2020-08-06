@@ -45,11 +45,14 @@
             this.button3 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.label6 = new System.Windows.Forms.Label();
+            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(552, 185);
+            this.textBox1.Location = new System.Drawing.Point(397, 184);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(258, 28);
             this.textBox1.TabIndex = 0;
@@ -62,21 +65,21 @@
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(552, 234);
+            this.textBox2.Location = new System.Drawing.Point(397, 233);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(258, 28);
             this.textBox2.TabIndex = 1;
             // 
             // textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(552, 284);
+            this.textBox3.Location = new System.Drawing.Point(397, 283);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(258, 28);
             this.textBox3.TabIndex = 2;
             // 
             // textBox4
             // 
-            this.textBox4.Location = new System.Drawing.Point(552, 334);
+            this.textBox4.Location = new System.Drawing.Point(397, 333);
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(258, 28);
             this.textBox4.TabIndex = 3;
@@ -87,7 +90,7 @@
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label1.Location = new System.Drawing.Point(378, 185);
+            this.label1.Location = new System.Drawing.Point(223, 184);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(113, 21);
             this.label1.TabIndex = 2;
@@ -100,7 +103,7 @@
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label2.Location = new System.Drawing.Point(436, 234);
+            this.label2.Location = new System.Drawing.Point(281, 233);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(43, 21);
             this.label2.TabIndex = 2;
@@ -112,7 +115,7 @@
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label3.Location = new System.Drawing.Point(411, 287);
+            this.label3.Location = new System.Drawing.Point(256, 286);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(79, 21);
             this.label3.TabIndex = 2;
@@ -124,7 +127,7 @@
             this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label4.Location = new System.Drawing.Point(377, 334);
+            this.label4.Location = new System.Drawing.Point(222, 333);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(111, 21);
             this.label4.TabIndex = 2;
@@ -136,7 +139,7 @@
             this.label5.BackColor = System.Drawing.Color.Transparent;
             this.label5.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label5.Location = new System.Drawing.Point(379, 383);
+            this.label5.Location = new System.Drawing.Point(224, 382);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(113, 21);
             this.label5.TabIndex = 2;
@@ -144,12 +147,13 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(552, 381);
+            this.button1.Location = new System.Drawing.Point(343, 380);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(134, 40);
             this.button1.TabIndex = 4;
             this.button1.Text = "Upload Image";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
@@ -200,6 +204,23 @@
             this.label6.Text = "Input Order Details";
             this.label6.Click += new System.EventHandler(this.label6_Click);
             // 
+            // textBox5
+            // 
+            this.textBox5.Location = new System.Drawing.Point(483, 387);
+            this.textBox5.Name = "textBox5";
+            this.textBox5.Size = new System.Drawing.Size(258, 28);
+            this.textBox5.TabIndex = 3;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox1.Location = new System.Drawing.Point(764, 196);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(307, 242);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 8;
+            this.pictureBox1.TabStop = false;
+            // 
             // Form8
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 21F);
@@ -207,6 +228,7 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1264, 681);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
@@ -217,6 +239,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label1);
+            this.Controls.Add(this.textBox5);
             this.Controls.Add(this.textBox4);
             this.Controls.Add(this.textBox3);
             this.Controls.Add(this.textBox2);
@@ -226,6 +249,7 @@
             this.Name = "Form8";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "MediHelp - Input Order Details";
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -248,5 +272,7 @@
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
